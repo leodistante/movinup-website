@@ -32,3 +32,21 @@
     justify-content: center;
     transform: translateY(-40px);
   }
+
+  @media only screen and (max-width: 650px) {
+    .about {
+      height: 80vh;
+      display: flex;
+      flex-direction: column;
+    }
+    
+    .aboutTop {
+      height: 35%;
+    }
+    
+    .about .aboutBottom h1 {
+      font-size: 40px;
+      margin-top: 50px;
+    }
+
+  }

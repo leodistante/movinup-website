@@ -19,3 +19,13 @@
   .footer p {
     color: white;
   }
+
+  @media only screen and (max-width: 650px) {
+    .footer {
+      height: 150px;
+    }
+    
+    .socialMedia svg {
+      font-size: 40px;
+    }
+  }
