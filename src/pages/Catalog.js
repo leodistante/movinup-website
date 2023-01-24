@@ -6,7 +6,7 @@ import { CatalogList } from "../helpers/CatalogList";
 function Menu() {
   return (
     <div className="menu">
-      <h1 className="menuTitle">Our Catalog</h1>
+      <h1 className="menuTitle">Our Books</h1>
       <div className="menuList">
         {CatalogList.map((catalogItem, key) => {
           return (
